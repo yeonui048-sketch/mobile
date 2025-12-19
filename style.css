@@ -1,0 +1,841 @@
+
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 스토리 제목 */
+.font01{ 
+    font-family: 'HeirofLightBold';
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 41px;
+}
+.font02{ 
+    font-family: 'HeirofLightBold';
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 23px;
+}
+.font03{ 
+    font-family: 'HeirofLightRegular';
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+.font04{
+    font-family: 'HeirofLightBold';
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 23px;
+}
+.font05{
+    font-family: 'HeirofLightBold';
+    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 34px;
+}
+.font06{
+    font-family: 'HeirofLightBold';
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 34px;
+}
+.font07{
+    font-family: 'HeirofLightBold';
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 30px;
+}
+.font08{
+    font-family: 'HeirofLightBold';
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 16px;
+}
+.font09{
+    font-family: 'HeirofLightBold';
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 34px;
+}
+*{margin: 0;padding: 0;text-decoration: none;list-style-type: none;}
+/* 인덱스 스타일 */
+.wrap00{
+    position: absolute;
+    min-width: 100%; 
+    min-height: 100vh;
+    z-index: 10;
+}
+.wrap00 > a > img{
+    display: block;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    top: 88%;
+}
+video{
+    position: absolute;
+    min-width: 100%; 
+    min-height: 100vh;
+    z-index: 1;
+}
+/* 서브 스타일 */
+/* A 박스 스타일 */
+.a01{
+    position: relative;
+    width: 100%;
+    height: 932px;
+    background-image: url(img/a_bg.png);
+    overflow: hidden;
+}
+.a01_01{
+    text-align: center;
+    padding-top: 73px;
+    padding-left: 3px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+
+.a01_02{
+    text-align: center;
+    padding-top: 20px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.a01_03{
+    text-align: center;
+    height: 192px; 
+    padding-top: 34px;
+}
+.a01_04{
+    text-align: center;
+    padding-top: 58px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+/* B 박스 스타일 */
+.b01{
+    position: relative;
+    width: 100%;
+    height: 2206px;
+    background-image: url(img/b_bg.png);
+    overflow: hidden;
+}
+.b01_01{
+    text-align: center;
+    padding-top: 73px;
+    padding-left: 1px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_02{
+    text-align: center;
+    height: 192px; 
+    padding-top: 80px;
+    padding-left: 8px;
+}
+.b01_03{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_04{
+    text-align: center;
+    height: 192px; 
+    padding-top: 30px;
+    padding-left: 8px;
+}
+.b01_05{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_06{
+    text-align: center;
+    height: 192px; 
+    padding-top: 30px;
+    padding-left: 8px;
+}
+.b01_07{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_08{
+    text-align: center;
+    height: 192px; 
+    padding-top: 30px;
+    padding-left: 8px;
+}
+.b01_09{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_10{
+    text-align: center;
+    height: 192px; 
+    padding-top: 30px;
+    padding-left: 8px;
+}
+.b01_11{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_12{
+    text-align: center;
+    height: 192px; 
+    padding-top: 30px;
+    padding-left: 8px;
+}
+.b01_13{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_14{
+    text-align: center;
+    height: 192px; 
+    padding-top: 30px;
+    padding-left: 8px;
+}
+.b01_15{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.b01_16{
+    text-align: center;
+    height: 192px; 
+    padding-top: 30px;
+    padding-left: 8px;
+}
+.b01_17{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+/* C 박스 스타일 */
+.c01{
+    position: relative;
+    width: 100%;
+    height: 161px;
+    background-image: url(img/c_bg.png);
+    overflow: hidden;
+}
+.c01_01{
+    text-align: center;
+    padding-top: 60px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+/* D 박스 스타일 */
+.d01{
+    position: relative;
+    width: 100%;
+    height: 932px;
+    background-image: url(img/d_bg.png);
+    overflow: hidden;
+}
+.d01_01{
+    text-align: center;
+    padding-top: 73px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.d01_02{
+    text-align: center;
+    padding-top: 30px;
+    color: #A7A7A7;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.d01_03 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 286px;
+    height: auto;
+    line-height: 0;
+}
+.d01_03 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.d01_04 {
+    text-align: left;
+    padding-top: 50px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right:20px;
+}
+.d01_05 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}   
+.d01_06 {
+    text-align: left;
+    padding-top: 20px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right:20px;
+}
+.d01_07 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.d01_08 {
+    text-align: right;
+    padding-top: 34px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right:20px;
+    line-height: 28px;
+}
+/* E 박스 스타일 */
+.e01{
+    position: relative;
+    width: 100%;
+    height: 932px;
+    background-image: url(img/d_bg.png);
+    overflow: hidden;
+}
+.e01_01{
+    text-align: center;
+    padding-top: 73px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.e01_02{
+    text-align: center;
+    padding-top: 30px;
+    color: #A7A7A7;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.e01_03 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 286px;
+    height: auto;
+    line-height: 0;
+}
+.e01_03 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.e01_04 {
+    text-align: left;
+    padding-top: 50px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left:20px;
+}
+.e01_05 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}   
+.e01_06 {
+    text-align: left;
+    padding-top: 20px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left:20px;
+}
+.e01_07 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.e01_08 {
+    text-align: left;
+    padding-top: 30px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left:20px;
+    line-height: 28px;
+}
+/* F 박스 스타일 */
+.f01{
+    position: relative;
+    width: 100%;
+    height: 932px;
+    background-image: url(img/d_bg.png);
+    overflow: hidden;
+}
+.f01_01{
+    text-align: center;
+    padding-top: 73px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.f01_02{
+    text-align: center;
+    padding-top: 30px;
+    color: #A7A7A7;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.f01_03 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 286px;
+    height: auto;
+    line-height: 0;
+}
+.f01_03 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.f01_04 {
+    text-align: left;
+    padding-top: 50px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right:20px;
+}
+.f01_05 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}   
+.f01_06 {
+    text-align: left;
+    padding-top: 20px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right:20px;
+}
+.f01_07 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.f01_08 {
+    text-align: right;
+    padding-top: 30px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-end;
+    padding-right:20px;
+    line-height: 28px;
+}
+/* G 박스 스타일 */
+.g01{
+    position: relative;
+    width: 100%;
+    height: 932px;
+    background-image: url(img/g_bg.png);
+    overflow: hidden;
+}
+.g01_01{
+    text-align: center;
+    padding-top: 73px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.g01_02{
+    text-align: center;
+    padding-top: 30px;
+    color: #A7A7A7;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.g01_03 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 286px;
+    height: auto;
+    line-height: 0;
+}
+.g01_03 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.g01_04 {
+    text-align: left;
+    padding-top: 50px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left:20px;
+}
+.g01_05 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}   
+.g01_06 {
+    text-align: left;
+    padding-top: 20px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left:20px;
+}
+.g01_07 {
+    text-align: left;
+    padding-top: 20px;
+    color: #A7A7A7;
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+.g01_08 {
+    text-align: left;
+    padding-top: 48px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+    display: flex;
+    justify-content: flex-start;
+    padding-left:20px;
+    line-height: 28px;
+}
+/* H 박스 */
+.h01{
+    position: relative;
+    width: 100%;
+    height: 932px;
+    background-image: url(img/h_bg.png);
+    overflow: hidden;
+}
+.h01_01{
+    text-align: center;
+    padding-top: 60px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-size: 200%;
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.h01_02{
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  padding: 100px 20px;
+}
+.house-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h01_03{
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.h01_04{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px;
+}
+.h01_05{
+  width: 100%;
+  text-align: center;
+  margin-top: 18px;
+  background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.h01_06{
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  padding: -40px 0px;
+}
+.house-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h01_07{
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+  background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.h01_08{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px;
+  transform: translateX(-20px); 
+}
+.h01_09{
+  width: 100%;
+  text-align: center;
+  margin-top: 18px;
+  background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+/* I 박스 */
+.i01{
+    position: relative;
+    width: 100%;
+    height: 189px;
+    background-image: url(img/i_bg.png);
+    overflow: hidden;
+}
+.i01_01{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 175px;
+    background: linear-gradient(to right, #AF7C24 0%, #CBA170 60%, #FFFFFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: drop-shadow(2px 10px 4px rgba(0, 0, 0, 0.255));
+}
+.i01 a {
+    display: inline-block;
+    margin-top: 20px; 
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 170px; 
+}
